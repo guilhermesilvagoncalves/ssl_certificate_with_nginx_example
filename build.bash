@@ -1,0 +1,1 @@
+docker build . -t udemy_ssl_container

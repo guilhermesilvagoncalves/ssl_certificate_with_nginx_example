@@ -1,5 +1,3 @@
-FROM nginx
+FROM ubuntu
 USER root
-RUN apt-get -y update
-RUN apt-get -y install ufw
-RUN ufw allow 80/tcp
+RUN apt-get -y update && apt-get -y install nginx vim
